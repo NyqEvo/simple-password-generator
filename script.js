@@ -46,7 +46,7 @@ function generatePassword() {
   var newPassword = '';
   var listLength = characterList.length;
   if (requestedLength > 128 || requestedLength < 8 || isNaN(requestedLength)) {
-    return window.alert("Please choose a password length between 8 and 128 characters");
+    return window.alert("Please choose a number for a password length between 8 and 128 characters");
   }
   else {
     for (var i = 0; i < requestedLength; i++) {
